@@ -1,0 +1,206 @@
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.topo{
+	width: 100%;
+	height: 32px;
+	background-color: #04067e;
+	color: #04067e;
+}
+
+.topoint{
+	width: 100%;
+	height: 32px;
+	max-width: 1044px;
+	margin: auto;
+}
+.toporight{
+	width: 50%;
+	height: 32px;
+	float: right;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.topoleft ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.topoleft li {
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
+	line-height: 32px;
+}
+
+.topoleft li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.topoleft a:hover {
+	text-decoration: underline;
+}
+
+
+.topobusca{
+	width: 126px;
+	height: 20px;
+	outline: 0;
+}
+.toporight a {
+	float: right;
+	height: 26px;
+	margin-top: 3px;
+}
+
+.toporight input {
+	float: right;
+	margin-right: 3px;
+	margin-top: 3px;
+	outline: 0;
+}
+
+.toporight img {
+	margin-right: 5px;
+	
+}
+
+.topo2{
+	height: 96px;
+}
+
+.topo2int{
+	width: 100%;
+	max-width: 1040px;
+	height: 96px;
+	margin: auto;
+}
+.logo{
+	width: 230px;
+	height: 96px;
+	float: left;
+}
+
+.logo img {
+	margin-top: 9%;
+}
+
+.topo2 .banner{
+	width: 650px;
+	height: 80px;
+	margin-top: 8px;
+	float: right;
+	background-color: #04067e;
+	text-align: center;
+	line-height: 80px;
+	color: #04067e;
+	font-size: 30px;
+	font-family: "Times New Roman";
+
+}
+
+.menu {
+	display: block;
+	height: 150px;
+	background-color: #04067e;
+}
+
+.menuint {
+	display: block;
+	width: 100%;
+	max-width: 1040px;
+	height: 40px;
+	margin: auto;
+
+}
+
+.menu ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.menu li {
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu {
+	display: block;
+}
+.menuint li:hover {
+	background-color: blue;
+}
+
+.submenu {
+	width: 150px;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	margin-left: -10px;
+	display: none;
+}
+
+
+.submenuitem {
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.submenuitem:hover {
+	background-color: blue;
+}
+.ultimasnoticias {
+	height: 50px;
+}
+
+.ultimasnoticiasint {
+	width: 100%;
+	max-width: 1040px;
+	height: 40px;
+	margin: auto;
+	padding-top: 10px;
+	font-size: larger;
+	font-family: inherit;
+}
+
+.ultnoticiasarea {
+	height: 28px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.ultnoticiastitulo {
+	background-color: red;
+	color: white;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+.ultnoticiasnoticia {
+	color: black;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 5px;
+}
